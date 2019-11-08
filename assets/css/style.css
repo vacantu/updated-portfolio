@@ -19,9 +19,8 @@
 
 /* general */
 
-.main-container {
-  position: absolute;
-  top: 25px;
+.row {
+  margin-top: 25px !important;
 }
 
 body {
