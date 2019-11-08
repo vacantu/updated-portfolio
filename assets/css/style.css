@@ -1,0 +1,171 @@
+// Media queries section
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+
+/* general */
+
+body {
+  color: white;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  padding-top: 10px;
+  pading-bottom: 0px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+ 
+/*  NAVBAR */
+.nav {
+  border-botom: 1px solid red !important;
+}
+
+/* FOOTER */
+footer {
+  display: block;
+  height: 7%;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background: black;
+  border-top: 1px solid red;
+  opacity: 0.5;
+}
+
+#footer-text::before {
+  content: "&copy Copyright CycleNetworks, Virgilio Cantu 2019"
+}
+
+/* main */
+
+#main-container {
+  min-height: calc(100% - 70px);
+}
+.card {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.card-img {
+  padding: 10px;
+}
+
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+/* INDEX PAGE */
+.cover-image {
+  width: 86.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}

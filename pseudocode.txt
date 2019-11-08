@@ -1,0 +1,23 @@
+aprender a usar mediascreen
+ok - portfolio in menu should be drop down showing all the projects
+ok - nav bar should colapse when resizing to small screen
+ok - Expand the menu bar to be fluid.
+
+include: wordguess, giphy, train, trivia & project1 
+make small screenshots of every project to include in the portfolio page.
+ok - style the bottom bar y hacerla sticky. style the navbar.
+
+finish and retouch all the projects
+
+show more projects when screen is bigger
+Mobile first!
+
+<p>Professional Sommelier with thorough experience in providing wine service and advice to guests, performing wine tasting dinners and seminars, food pairing recommendations, managing wine cellars, training waiting staff and sales personnel and developing wine lists.</p>
+
+<p>Currently studying to become a Web developer, using the latst technologies.</p>
+
+<p>Extensive experience in management, sales, websites development, application design & integration, using legacy languages and databases.</p>
+
+<p>Strong outsourcing, organizational, account management and project management skills. Capable of leading re-engineering and quality initiatives, cost reduction programs, budget development; optimize internal processes and productivity improvements. Excellent analytical, problem solving and interpersonal skills.</p>
+
+<p>Specialties: Wine & Spirits Seminars, Events Management, Web & Graphic Design, Social Marketing, Project Management, Training Programs, Education Management, Inventory Management, IT Management and development. </p>
