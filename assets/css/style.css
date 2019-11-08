@@ -19,6 +19,11 @@
 
 /* general */
 
+.main-container {
+  position: absolute;
+  top: 25px;
+}
+
 body {
   color: white;
   background-color: black;
